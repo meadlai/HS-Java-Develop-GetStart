@@ -1,0 +1,19 @@
+package com.hundsun.fund.java1;
+
+/**
+ *
+ */
+public class Vegetable implements IPlant {
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.hundsun.fund.java1;
+
+public class Vegetable implements Plant {
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+		
+	}
+
+}

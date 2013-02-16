@@ -1,0 +1,21 @@
+package com.hundsun.fund.java4.flowcontrol_and_exceptions;
+
+public class MainOfExceptions {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+		int i = 0;
+		try {
+			i = 100/0;
+		} catch (ArithmeticException ex1) {
+			ex1.printStackTrace();
+		}catch(Exception ex2){
+			throw ex2;
+		}
+		
+	}
+
+}

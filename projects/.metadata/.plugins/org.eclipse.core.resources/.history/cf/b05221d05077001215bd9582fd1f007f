@@ -1,0 +1,27 @@
+package com.hundsun.fund.java4.flowcontrol_and_exceptions;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// if
+
+		int x = 3;
+		switch (x) {
+		default:
+			System.out.println("Still no idea what x is");
+		case 2:
+			System.out.println("x is equal to 2");
+			// break;
+		case 3:
+			System.out.println("x is equal to 3");
+			// break;
+		//default:
+			System.out.println("Still no idea what x is");
+		}
+
+	}
+
+}

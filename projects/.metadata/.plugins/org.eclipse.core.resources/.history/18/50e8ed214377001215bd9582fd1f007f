@@ -1,0 +1,62 @@
+package com.hundsun.fund.java1;
+
+/**
+ * 实现类 
+ *
+ */
+public final class Apple extends Fruit {
+
+	private static final long serialVersionUID = 1L;
+	
+	private String size;
+	private String weight;
+	private boolean eatable;
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+		
+	}
+	
+	@Override
+	public void abstractMethod(){
+		
+	}
+
+	// getter & setter
+	public String getSize() {
+		return size;
+	}
+
+	public void setSize(String size) {
+		this.size = size;
+	}
+
+	public String getWeight() {
+		return weight;
+	}
+
+	public void setWeight(String weight) {
+		this.weight = weight;
+	}
+
+	public boolean isEatable() {
+		return eatable;
+	}
+
+	public void setEatable(boolean eatable) {
+		this.eatable = eatable;
+	}
+	
+	
+}
+
+//class TestApple extends Apple{}
+
+
+	
+

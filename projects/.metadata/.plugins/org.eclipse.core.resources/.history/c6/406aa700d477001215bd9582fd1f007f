@@ -1,0 +1,25 @@
+package com.hundsun.fund.java6.collections;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Main.aboutList();
+		Main.aboutSet();
+		Main.aboutMap();
+	}
+
+	public static void aboutSet(){
+		
+	}
+	
+	public static void aboutList(){
+		
+	}
+	
+	public static void aboutMap(){
+		
+	}
+}

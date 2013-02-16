@@ -1,0 +1,27 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class AnonymousInner {
+
+	
+
+	
+
+	public static void main(String[] args) {
+		
+		//匿名内类1
+		OldNested p = new OldNested() {
+			@Override
+			public void pop() {
+				System.out.println("anonymous popcorn");
+			}
+		};
+		p.pop();
+	}
+
+}
+//old-Pain
+class OldNested {
+	public void pop() {
+		System.out.println("popcorn");
+	}
+}

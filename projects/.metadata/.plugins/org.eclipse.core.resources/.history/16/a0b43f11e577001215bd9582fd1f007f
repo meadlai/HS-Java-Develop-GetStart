@@ -1,0 +1,20 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class StaticInner {
+
+	//静态内类
+	static class Nest {
+		void go() {
+			System.out.println("hi");
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

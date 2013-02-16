@@ -1,0 +1,13 @@
+package com.hundsun.fund.java1;
+
+import java.io.Serializable;
+
+/**
+ * 类名,必须大写
+ * @author laiqinyi
+ *
+ */
+public interface Fruit extends Serializable {
+	String  TYPE = "水果";
+
+}

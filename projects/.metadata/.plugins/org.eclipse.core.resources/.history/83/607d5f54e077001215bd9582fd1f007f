@@ -1,0 +1,21 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class MethodInner {
+	public static void main(String[] args) {
+		
+	}
+	
+	private static String x = "Outer2";
+	static void doStuff() {
+		class MyInner {
+			public void seeOuter() {
+				System.out.println("Outer x is " + x);
+			} // close inner class method
+		} // close inner class definition
+
+		MyInner mi = new MyInner(); // This line must come
+									// after the class
+		mi.seeOuter();
+	} // close outer class method doStuff()
+
+}

@@ -1,0 +1,14 @@
+package com.hundsun.fund.java1;
+
+/**
+ * 抽象类
+ *
+ */
+public abstract class Fruit implements IPlant {
+
+	private static final long serialVersionUID = 1L;
+	
+	//
+	public abstract void abstractMethod();
+
+}

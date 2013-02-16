@@ -1,0 +1,26 @@
+package com.hundsun.fund.java2.object_oriented;
+
+import com.hundsun.fund.java1.declare.Fruit;
+
+public class Orange extends Fruit {
+	private static final long serialVersionUID = 1L;
+
+	public Orange() {
+	}
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+
+	}
+
+	@Override
+	public void abstractMethod() {
+
+	}
+
+}

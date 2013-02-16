@@ -1,0 +1,20 @@
+package com.hundsun.fund.java1;
+
+import java.io.Serializable;
+
+/**
+ * 接口,名称必须大写,后面是驼峰命名
+ * @author laiqinyi
+ *
+ */
+public interface Fruit extends Serializable {
+	
+	public static final String TYPE_NAME = "水果";
+	//所有接口声明的成员变量都是public static final
+	String CATEGORY_NAME = "植物";
+	
+	public abstract int grow(int rate);
+	//
+	void bloom();
+	
+}

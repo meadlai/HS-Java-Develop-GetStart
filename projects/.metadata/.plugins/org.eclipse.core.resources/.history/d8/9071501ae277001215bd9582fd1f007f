@@ -1,0 +1,10 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class AnonymousInner {
+
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

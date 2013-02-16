@@ -1,0 +1,25 @@
+package com.hundsun.fund.java2.object_oriented;
+
+import com.hundsun.fund.java1.declare.Apple;
+
+public class BigRedApple extends Apple {
+
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * overriding,重写方法<br>
+	 * 异常无法扩大
+	 */
+	@Override
+	public void bloomFlower() {
+
+	}
+	
+	/**
+	 * overloading
+	 * @param color
+	 */
+	public void bloomFlower(String color)throws Exception {
+		
+	}
+}

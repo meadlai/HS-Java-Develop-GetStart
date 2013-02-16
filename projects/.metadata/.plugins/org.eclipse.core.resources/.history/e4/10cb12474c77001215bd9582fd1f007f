@@ -1,0 +1,15 @@
+package com.hundsun.fund.java3.assignments;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int i=10,k=10;
+		System.out.println(i++);
+		System.out.println(++k);
+
+	}
+
+}

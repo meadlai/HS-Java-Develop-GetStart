@@ -1,0 +1,28 @@
+package com.hundsun.fund.java5.strings;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public static void aboutEqual(){
+		User m1 = new User();
+		m1.setAge(23);
+		m1.setName("tom");
+		User m2 = new User();
+		m2.setAge(23);
+		m2.setName("tom");
+		if(m1.equals(m2)){
+			System.out.println("m1==m2");
+		}else{
+			System.out.println("there are some difference between m1 and m2");
+		}
+	}
+
+}

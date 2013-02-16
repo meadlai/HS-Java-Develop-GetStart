@@ -1,0 +1,13 @@
+package com.hundsun.fund.java4.flowcontrol_and_exceptions;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

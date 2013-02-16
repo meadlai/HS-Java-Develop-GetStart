@@ -1,0 +1,29 @@
+package com.hundsun.fund.java2;
+
+import com.hundsun.fund.java1.Fruit;
+
+public class Orange extends Fruit {
+
+	public Orange() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int growStrong(int rate) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void abstractMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

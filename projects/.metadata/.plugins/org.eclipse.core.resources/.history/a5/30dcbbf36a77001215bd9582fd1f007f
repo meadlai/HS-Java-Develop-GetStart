@@ -1,0 +1,26 @@
+package com.hundsun.fund.java4.flowcontrol_and_exceptions;
+
+public class MainOfExceptions {
+
+	/**
+	 * @param args
+	 * @throws Exception 方法声明异常
+	 */
+	public static void main(String[] args) throws Exception {
+		
+		
+	}
+	
+	public static void test(){
+		int i = 0;
+		try {
+			i = 100/0;
+		} catch (ArithmeticException ex1) {
+			ex1.printStackTrace();
+		}catch(Exception ex2){
+			//重新抛出异常
+			throw ex2;
+		}
+	}
+
+}

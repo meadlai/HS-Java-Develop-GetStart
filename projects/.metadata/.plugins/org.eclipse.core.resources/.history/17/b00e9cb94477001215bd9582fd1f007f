@@ -1,0 +1,69 @@
+package com.hundsun.fund.java1;
+
+/**
+ * 类的声明,
+ * 
+ */
+public class Apple extends Fruit {
+
+	private static final long serialVersionUID = 1L;
+	// JavaBeans属性
+	private String color;// 颜色
+	private boolean eatable;// 是否可食用
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+
+	}
+
+	@Override
+	public void abstractMethod() {
+
+	}
+
+	// getter & setter, for JavaBeans
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public boolean isEatable() {
+		return eatable;
+	}
+
+	public void setEatable(boolean eatable) {
+		this.eatable = eatable;
+	}
+}
+
+/**
+ * 可以存在default修饰符的class声明<br>
+ * MiniApple不是public修饰符
+ */
+abstract class MiniApple extends Apple {
+	private static final long serialVersionUID = 1L;
+
+	// final,最终方法
+	public final String description(final String arg1) {
+		return "";
+	}
+
+	// synchronized,同步方法
+	public synchronized void pickedBy(String user) {
+		//
+	}
+
+	// abstract,抽象方法
+	public abstract void abstractMethod();
+	
+	//
+	transient String owner;
+}

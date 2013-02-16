@@ -1,0 +1,28 @@
+package com.hundsun.fund.java3.assignments;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int i=10,k=10,val=0;
+		val = i++;
+		System.out.println("i的值"+ val);
+		val = ++k;
+		System.out.println("k的值"+ val);
+		//
+		i += 1;
+		System.out.println("i的值"+ i);
+		//
+		String test = (i>0)?"大于零":"小于零"; 
+		System.out.println("i的值:"+ test);
+		//
+		if(test instanceof String){
+			System.out.println("test是String类型");
+		}
+
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.hundsun.fund.java1.declare;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//声明局部变量(引用类型)
+		Apple apple = new Apple();
+		apple.setColor("red");
+		
+	}
+
+}

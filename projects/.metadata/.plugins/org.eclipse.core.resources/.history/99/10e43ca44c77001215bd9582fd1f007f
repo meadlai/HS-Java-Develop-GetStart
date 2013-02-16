@@ -1,0 +1,19 @@
+package com.hundsun.fund.java3.assignments;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int i=10,k=10,val=0;
+		val = i++;
+		System.out.println("i的值"+ val);
+		val = ++k;
+		System.out.println("k的值"+ val);
+		//
+		i+= 1;
+
+	}
+
+}

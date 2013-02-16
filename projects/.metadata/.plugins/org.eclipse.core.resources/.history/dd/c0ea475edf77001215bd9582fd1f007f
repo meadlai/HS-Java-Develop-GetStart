@@ -1,0 +1,25 @@
+package com.hundsun.fund.java7.inner_class;
+
+/**
+ * 内类编译,会生成两个文件<br>
+ * CommonInner.class<br>
+ * CommonInner$Inner.class<br>
+ * 
+ * @author laiqinyi
+ *
+ */
+public class CommonInner {
+	//
+	private class Inner{
+		public void haveFun(){
+			System.out.println();
+		}
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.hundsun.fund.java8.threads;
+
+public class MyThread {
+
+	public static void main(String[] args) {
+		Task task = new Task();
+		Thread one = new Thread(task);
+		one.setName("任务1");
+		one.start();
+
+	}
+
+}
+
+class Task implements Runnable {
+
+	@Override
+	public void run() {
+		for (int x = 1; x < 4; x++) {
+			System.out.println("Run by " + Thread.currentThread().getName());
+
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException ex) {
+			}
+		}
+	}
+
+}

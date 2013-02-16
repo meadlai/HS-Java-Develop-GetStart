@@ -1,0 +1,11 @@
+package com.hundsun.fund.java1.declare;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Apple apple = new Apple();
+		apple.setColor("red");
+		
+	}
+
+}

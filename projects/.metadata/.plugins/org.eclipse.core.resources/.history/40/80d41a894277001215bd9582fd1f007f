@@ -1,0 +1,32 @@
+package com.hundsun.fund.java1;
+
+/**
+ * 
+ *
+ */
+public final class Apple extends Fruit {
+
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public int growStrong(int rate) {
+		return 0;
+	}
+
+	@Override
+	public void bloomFlower() {
+		
+	}
+	
+	@Override
+	public void abstractMethod(){
+		
+	}
+
+}
+
+//class TestApple extends Apple{}
+
+
+	
+

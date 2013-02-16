@@ -1,0 +1,45 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class AnonymousInner {
+
+	public static void main(String[] args) {
+
+		// 普通匿名内类1,重写方法pop
+		OldNested p = new OldNested() {
+			@Override
+			public void pop() {
+				System.out.println("anonymous popcorn");
+			}
+		};
+		p.pop();
+		// 普通匿名内类2,实现接口Cookable,实现方法cook()
+		Cookable c = new Cookable() {
+			@Override
+			public void cook() {
+				System.out.println("anonymous cookable implementer");
+			}
+		};// 注意这个逗号
+		//参数匿名内类
+		
+	}
+
+}
+
+// old-Pain#1,
+class OldNested {
+	public void pop() {
+		System.out.println("popcorn");
+	}
+}
+
+// old-Pain#2,
+interface Cookable {
+	public void cook();
+}
+
+// Argument-defined anonymous nested classes
+class Argumen{
+	public void doStuff(){
+		
+	}
+}

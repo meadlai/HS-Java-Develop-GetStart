@@ -1,0 +1,12 @@
+
+public class HelloWorld {
+
+	/**
+	 * 主程序入口,相当于
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("HelloWorld!");
+	}
+
+}

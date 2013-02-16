@@ -1,0 +1,22 @@
+package com.hundsun.fund.java7.inner_class;
+
+public class StaticInner {
+
+	//静态内类
+	static class Nest {
+		void go() {
+			System.out.println("hi");
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		BigOuter.Nest n = new BigOuter.Nest();   // both class names
+	    n.go();
+	    B2 b2 = new B2();     // access the enclosed class
+	    b2.goB2();
+	}
+
+}

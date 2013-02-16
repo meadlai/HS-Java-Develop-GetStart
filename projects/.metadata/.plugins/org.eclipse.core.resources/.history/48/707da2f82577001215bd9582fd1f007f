@@ -1,0 +1,16 @@
+/**
+ * 
+ * @author laiqinyi
+ *
+ */
+public class HelloWorld {
+
+	/**
+	 * 主程序入口,相当于C的main
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("HelloWorld!");
+	}
+
+}

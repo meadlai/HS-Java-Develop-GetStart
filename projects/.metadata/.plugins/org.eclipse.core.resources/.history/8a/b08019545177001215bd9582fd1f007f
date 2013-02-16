@@ -1,0 +1,40 @@
+package com.hundsun.fund.java4.flowcontrol_and_exceptions;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// if
+
+		// switch,
+		// 1,注意break自动掉落
+		// 2,default可以放在中间
+		int x = 2;
+		switch (x) {
+		case 2:
+			System.out.println("x is equal to 2");
+			// break;
+		default:
+			System.out.println("默认值条件,可以放在中间");
+		case 3:
+			System.out.println("x is equal to 3");
+			// break;
+			// default: System.out.println("Still no idea what x is");
+		}
+
+		// while,
+		//1, 注意do-while,总是会运行一次,即使条件是false
+		x = 2;
+		while (x == 2) {
+			System.out.println(x);
+			++x;
+		}
+		do {
+			System.out.println("Inside loop");
+		} while (false);
+
+	}
+
+}

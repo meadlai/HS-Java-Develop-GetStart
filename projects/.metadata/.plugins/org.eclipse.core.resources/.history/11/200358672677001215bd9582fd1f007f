@@ -1,0 +1,18 @@
+/**
+ * 类的注释说明
+ * @author laiqinyi
+ * @version 1.0
+ *
+ */
+public class HelloWorld {
+
+	/**
+	 * 主程序入口,相当于C的main
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//注释:打印HelloWorld字符串.
+		System.out.println("HelloWorld!");
+	}
+
+}

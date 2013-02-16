@@ -1,0 +1,20 @@
+package com.hundsun.fund.java8.threads;
+
+public class MyThread {
+
+	
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Task implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

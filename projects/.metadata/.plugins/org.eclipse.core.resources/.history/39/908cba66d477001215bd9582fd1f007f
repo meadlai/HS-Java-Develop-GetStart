@@ -1,0 +1,35 @@
+package com.hundsun.fund.java6.collections;
+
+import java.util.HashMap;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Main.aboutList();
+		Main.aboutSet();
+		Main.aboutMap();
+	}
+
+	public static void aboutMap(){
+		HashMap<String,String> hashMap = new HashMap<String,String>();
+		hashMap.put("key1",	"val1");
+		hashMap.put("key2",	"val2");
+		hashMap.put("key1",	"999");
+		for(String key: hashMap.keySet()){
+			System.out.println("key="+key+", val="+val);
+		}
+	}
+	
+	public static void aboutSet(){
+		
+	}
+	
+	public static void aboutList(){
+		
+	}
+	
+	
+}
