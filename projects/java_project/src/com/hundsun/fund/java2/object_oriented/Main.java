@@ -1,5 +1,8 @@
 package com.hundsun.fund.java2.object_oriented;
 
+import com.hundsun.fund.java1.declare.Apple;
+import com.hundsun.fund.java1.declare.Fruit;
+
 public class Main {
 
 	/**
@@ -7,9 +10,15 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		//注意构造函数,调用链接
-		BigRedApple apple = new BigRedApple();
-		apple.growStrong(10);
-		apple.bloomFlower();
+		Fruit apple1 = new BigRedApple();
+		apple1.growStrong(10);
+		apple1.bloomFlower();
+		
+		//父类,类型相容
+		Apple apple2 = new BigRedApple();
+		apple2.growStrong(20);
+		apple2.bloomFlower();
+
 	}
 
 }

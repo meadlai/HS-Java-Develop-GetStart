@@ -14,13 +14,18 @@ public class Main {
 		//
 		i += 1;
 		System.out.println("i的值" + i);
-		//
+		//三目运算
 		String test = (i > 0) ? "大于零" : "小于零";
 		System.out.println("i的值:" + test);
-		//
-		if (test instanceof String) {
+		
+		int j = 5;
+		//短路操作符号,最少计算量
+		//将(3>2)改完(3>5),查看j的值
+		if (test instanceof String && (3>2) && (j++>0)) {
 			System.out.println("test是String类型");
 		}
+		System.out.println("j="+j);
+
 		//
 		char c = 'b';
 		double d = 9989.98867;

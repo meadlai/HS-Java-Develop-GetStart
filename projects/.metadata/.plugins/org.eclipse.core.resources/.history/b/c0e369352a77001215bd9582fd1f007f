@@ -1,5 +1,0 @@
-package com.hundsun.fund.java1;
-
-public final class Apple extends Fruit {
-
-}

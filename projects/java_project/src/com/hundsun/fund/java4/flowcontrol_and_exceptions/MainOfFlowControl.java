@@ -53,6 +53,12 @@ public class MainOfFlowControl {
 
 		}
 		
+		//增强for循环
+		int[] list = {3,6,9,11};
+		for(int num : list){
+			System.out.println("增强for循环:"+num);
+		}
+		
 		//END_OF_ALL
 
 	}
